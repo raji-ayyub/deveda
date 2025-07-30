@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+*::--webkit-scrollbar{
+    display: none
+}
+body{
+    background-color: black;
+    color: rgb(230, 218, 218);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.navbar{
+    width: 100%;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 2rem;
+
+}
+
+
+.main{
+    width: 80%;
+    /* background-color: rgb(238, 184, 9); */
+    background: linear-gradient(
+        200deg,
+        rgb(238, 184, 9),
+        rgb(167, 224, 60)
+    );
+    height: 90vh;
+    margin: 0 auto;
+    border-radius: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.container{
+    width: 100%;
+    background-color: rgb(8, 8, 8);
+    height: 100%;
+    margin: 0 auto;
+    border-radius: 4.2rem;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.row2{
+    display: flex;
+    gap: 1rem;
+    padding: 1rem;
+    width: 90%;
+    box-shadow: 5px 5px 8px 2px rgba(0, 0, 0, 0.185);
+    border-radius: 2rem;
+    background-color: rgb(15, 15, 15);
+}
+
+.left{
+    width: 38%;
+}
+
+.middle-line{
+    background-color: rgba(207, 207, 207, 0.87);
+    width: 2px;
+    height: auto;
+}
+
+.left .scenes-header{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+    gap: 0.4rem;
+
+}
+.left h4{
+    font-size: 12px;
+}
+.left h2{
+    font-size: 20px;
+}
+
+
+
+.scenes-container {
+    height: 15rem;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+}
+.stories-header{
+    height: 2.8rem;
+    margin-bottom: 1rem;
+}
+.stories-container {
+    height: 15rem;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+
+}
+
+.story{
+    border-left: 2px solid rgb(167, 224, 60);
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding-left: 0.5rem;
+}
+
+.story h2 {
+    font-size: 14px;
+
+}
+
+.story p{
+    font-size: 12px;
+}
+
+.right{
+    width: 60%;
+}

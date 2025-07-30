@@ -98,6 +98,37 @@ body{
     flex-direction: column;
     overflow-y: auto;
 }
+
+.scene-image{
+    width: 90%;
+    height: 5rem;
+    background-image: url("images/frozen-poster.jfif");
+    background-size: cover;
+    border-radius: 0.5rem;
+    position: relative;
+}
+
+
+.download-button{
+    position: absolute;
+    right: 8px;
+    bottom: 4px;
+    width: 1rem;
+    height: 1rem;
+    border: 1px solid black;
+    border-radius: 4rem;
+    background-color: transparent;
+}
+.download-button i{
+    width: 1rem;
+    color: black;
+}
+
+
+
+
+
+
 .stories-header{
     height: 2.8rem;
     margin-bottom: 1rem;
@@ -129,4 +160,13 @@ body{
 
 .right{
     width: 60%;
+}
+
+
+
+@media only screen and (min-width: 768px){
+    .scene-image{
+        height: 10rem;
+        
+    }
 }

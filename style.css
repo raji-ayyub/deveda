@@ -93,7 +93,7 @@ body{
 
 
 .scenes-container {
-    height: 15rem;
+    height: 14rem;
     display: flex;
     flex-direction: column;
     overflow-y: auto;
@@ -101,19 +101,19 @@ body{
 }
 
 .a {
-    background-image: url("images/frozen-poster.jfif");
+    background-image: url("images/elsa-and-anna-at-castle.jpg");
 }
 .b {
-    background-image: url("images/frozen-poster.jfif");
+    background-image: url("images/trolls-heal-anna.jpg");
 }
 .c {
-    background-image: url("images/frozen-poster.jfif");
+    background-image: url("images/elsan-in-frozen-room.webp");
 }
 .d {
-    background-image: url("images/frozen-poster.jfif");
+    background-image: url("images/shipreck.webp");
 }
 .e {
-    background-image: url("images/frozen-poster.jfif");
+    background-image: url("images/coronation.png");
 }
 .scene-image{
     width: 90%;
@@ -151,7 +151,7 @@ body{
     margin-bottom: 1rem;
 }
 .stories-container {
-    height: 15rem;
+    height: 14rem;
     display: flex;
     flex-direction: column;
     overflow-y: auto;

@@ -97,15 +97,31 @@ body{
     display: flex;
     flex-direction: column;
     overflow-y: auto;
+    gap: 1rem;
 }
 
+.a {
+    background-image: url("images/frozen-poster.jfif");
+}
+.b {
+    background-image: url("images/frozen-poster.jfif");
+}
+.c {
+    background-image: url("images/frozen-poster.jfif");
+}
+.d {
+    background-image: url("images/frozen-poster.jfif");
+}
+.e {
+    background-image: url("images/frozen-poster.jfif");
+}
 .scene-image{
     width: 90%;
     height: 5rem;
-    background-image: url("images/frozen-poster.jfif");
     background-size: cover;
     border-radius: 0.5rem;
     position: relative;
+    flex: 0 0 auto;
 }
 
 
@@ -118,6 +134,7 @@ body{
     border: 1px solid black;
     border-radius: 4rem;
     background-color: transparent;
+    
 }
 .download-button i{
     width: 1rem;
@@ -138,6 +155,8 @@ body{
     display: flex;
     flex-direction: column;
     overflow-y: auto;
+    gap:1rem;
+    padding-right: 1rem;
 
 }
 
@@ -147,6 +166,7 @@ body{
     flex-direction: column;
     gap: 5px;
     padding-left: 0.5rem;
+    
 }
 
 .story h2 {

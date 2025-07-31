@@ -3,9 +3,9 @@
     padding: 0;
     border: none;
 }
-*::--webkit-scrollbar{
-    display: none
-}
+/* *::-webkit-scrollbar{
+    
+} */
 body{
     background-color: black;
     color: rgb(230, 218, 218);
@@ -180,6 +180,31 @@ body{
 
 .right{
     width: 60%;
+}
+
+
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    gap: 2rem;
+    margin: 0 auto;
+    margin-top: 5rem;
+    
+}
+.gallery .image{
+    width: 10rem;
+    
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 0 0 auto;
+    margin-bottom: 2rem;
+}
+
+.gallery .image img{
+    width: 100%;
 }
 
 

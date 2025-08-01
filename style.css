@@ -207,6 +207,12 @@ body{
     width: 100%;
 }
 
+.gallery-header{
+    font-size: 2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 1rem 1rem;
+}
+
 
 
 @media only screen and (min-width: 768px){

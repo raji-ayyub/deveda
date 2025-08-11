@@ -245,6 +245,7 @@ body{
     border-radius: 0.5rem;
     font-size: 1rem;
     margin: 2rem auto;
+    margin-left: 5rem;
     color: white;
     transition: background-color 0.3s ease;
 }
